@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal website - dharmik0702</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4d7046793d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/design7.png" class="logo">
+                <ul id="sidemenu">
+  
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skill</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#Certificate">Certificate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!------<p> Cloud Developer / Architechture</p>----->
+                <h1>Hi, I'm <span>Dharmik Bari</span><br> From India </h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------majh about section------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dharmik.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Allow me to introduce myself as Dharmik Sanjay Bari. I am currently in my second year of
+                        college, pursuing a BE (Bachelors of Engineering).  My academic focus lies in information technology,
+                         and I take pride in possessing a robust skill set that spans across every critical facet of the IT process.
+                         My commitment to building a strong foundation in this field is evident through my ongoing educational journey.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Database</span><br>My SQL/Orcle</li>
+                            <li><span>Language</span><br>C/C++/Java/Python</li>
+                            <li><span>Data Structure</span><br>Analysis/Algorithm</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>SSC/ K D HIHG SCHOOL</li>
+                            <li><span>2022</span><br>HSC/ M K JR COLLAGE</li>
+                            <li><span>2024</span><br>B TECH /ST JONS COLLAGE</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------service-------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C and C++</h2>
+                    <p>"C language: Foundation of programming, efficient and versatile.
+                        C++ language: Extends C with object-oriented features, enhancing modularity and productivity."
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>JAVA</h2>
+                    <p>"Java: Versatile and simple programming language,
+                        empowering developers with robust features for creating scalable and cross-platform applications
+                        effortlessly."</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON</h2>
+                    <p>"Python: A versatile and user-friendly programming language,
+                        offering simplicity and power for diverse applications in a golden coding experience."</p>
+                    <a href="#">learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!----------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/exp4.jpg"> 
+                <div class="layer">
+            <h3> Expense tracker</h3>
+            <p> A simple app to record, categorize, 
+                and track daily expenses for better 
+                financial management and planning</p>
+            <a href="https://github.com/dharmik0702/expense_tracker.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/exp3.jpeg">
+            </div>
+            <div class="work">
+                <img src="images/exp.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="Certificate">
+    <div class="container">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c1.jpg">
+            </div>
+            <div class="work">
+                <img src="images/cloud1.png">
+            </div>
+           
+            <div class="work">
+                <img src="images/skillindia.jpg">
+            </div>
+           
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+   <!----------------------Contact---------------> 
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dharmikbari64@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9130379948</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/dharmik-bari-724906271/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dharmik0702"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="mailto:dharmikbari64@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn-btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+    
+    <div class="copyright">
+        <p>Copyright&#169 2024. Made by <i class="fa-solid fa-heart"></i> dharmik0702</p>
+
+    </div>    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    
+    </script>
+   
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwUYSZ1En_HJGgwv5s9adsp9EvMXt-gZRSV0hbN-vtMhAbD3IAbFYmqyLCYDpVGPhg06w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html
